@@ -63,6 +63,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/surfingbird.ru.jpg" width="15px;"/> [SurfingBird](#surfingbird)
 * <img src="./images/logo-icons/flattr.jpg" width="15px;"/> [Flattr](#flattr)
 * <img src="./images/logo-icons/diaspora.jpg" width="15px;"/> [Diaspora](#diaspora)
+* <img src="./images/logo-icons/whatsapp.jpg" width="15px;" /> [WhatsApp](#whatsapp)
 
 ### Non-English Social Media
 
@@ -107,7 +108,7 @@ Some sites using this project :
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SinnaWeibo](#sinaweibo)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [SlashDot](#slashdot)
 * <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [Viber](#viber)
-* <img src="./images/logo-icons/dead-service.jpg" width="15px;"/> [WhatsApp](#whatsapp)
+
 
 ## URL Arguments
 
@@ -570,6 +571,22 @@ https://share.diasporafoundation.org/?title={title}&url={url}
 * *Test Notes :* Requires login to work.
 * *Test Results :* Functionality tested and verified by SocialShare Dev's in `2018`.
 
+### Whatsapp
+
+<img src="./images/logo-icons/whatsapp.jpg" width="25px" /> <code>Global Rank :</code>  `2` (oct. 3, 2019)
+
+<code>Parameters :</code> `urlcodedtext`
+
+```
+https://wa.me/whatsappphonenumber/?text={urlencodedtext}
+```
+
+<code>Source :</code>
+* *Official Source :* [Whatsapp Blog](https://blog.whatsapp.com/)
+* *Test Notes :* Requires login to work.
+* *Test Results :* Functionality tested and verified by SocialShare Dev's in `2019`.
+
+
 ## Non-English Social Media
 
 ### QZone
@@ -995,11 +1012,3 @@ Once supported, but no longer.  Some of these may be well-documented.  They are 
     * Official Viber Response: "Your feedback will be considered as our teams work on upcoming versions.  I’ll be closing this ticket, but feel free to reply to me with any further suggestions."  [Case: #4641960]
 
     *  ~~viber://forward?text={url}~~
-
-### WhatsApp
-
-* <img src="./images/logo-icons/dead-service.jpg" width="25px"/> Social-share service discontinued in 2018.  Confirmed after the test requirements: installing WhatsApp on Desktop and Phone, syncing phone with desktop, logging in with verified American legal credentials, and multiple tests of the given documentation - [Invalid Documentation: Using Whatsapp Official Specifications is a Failure](https://faq.whatsapp.com/en/android/26000030/?category=5245251).
-
-    * Official WhatsApp Response: "Sorry, but your description was not clear enough for our agents to understand the issue. Please explain the issue more thoroughly." [Request #172349248330585]
-    
-    *  ~~whatsapp://send?text={url}~~
